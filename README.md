@@ -1,7 +1,6 @@
 termux usage:
 
 git clone https://github.com/KisBert0k/Log-in-phish.git
-cd Log-in-phish
 
 the program will download all the important modules
 

